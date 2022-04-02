@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Pathway+Gothic+One&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Pathway+Gothic+One&family=Righteous&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+body{
+    background-color: aliceblue;
+}
+nav{
+    /* font-family: 'Varela Round', sans-serif; */
+font-family: Arial, Helvetica, sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+
+}
+nav ul li{
+    padding:0px 12px;
+}
+.logo img{
+width: 44px;
+padding:0px 9px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.29rem;
+}
+/* Middle */
+.middle{
+    min-height: 55vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round' sans-serif;
+    display: flex;
+    margin:23px auto;
+    width: 70%;
+    border-radius: 13px;
+     padding:30px;
+     background-image: url('background.jpg');
+     background-size: cover;
+
+}
+.songsall{
+   height:44px;
+   display:flex;
+   background-color: white;
+   color:black;
+   /* width:80%; */
+   margin:12px 0px;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 30px;
+   font-weight: bold;
+}
+
+.songsall img{
+width:40px;
+margin: 0px 23px;
+border-radius: 34px;
+}
+.songlistplay i
+{
+    font-size:22px;
+    margin:4px;
+    font-weight: 500;
+}
+.tmstp{
+    margin: 0px 23px;
+    
+}
+.tmstp i{
+  cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 34px;
+}
+
+/* Botttom */
+
+.bottom{
+    position: sticky;
+    height:105px;
+    background-color: black;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.icons{
+    margin-top:15px;
+}
+.icons i{
+    cursor: pointer;
+    margin:5px;
+}
+
+.progressbar{
+width: 80vw;
+cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left:9vw;
+}
+.songinfo img{
+height:25px;
+width:80px;
+padding:0px 10px;
+opacity: 0;
+transform: opacity 0.4s ease-in;
+font-family: 'Varela Round' sans-serif;
+}
